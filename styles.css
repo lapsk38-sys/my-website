@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fairy Forest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="layers">
+      <div class="layer-base"></div>
+      <div class="layer-middle"></div>
+      <div class="layer-front"></div>
+      <div class="layer-title">
+        <h1 class="title">Welcome</h1>
+        <span class="subtitle">Fairy Forest</span>
+      </div>
+    </div>
+  </header>
+
+  <article class="article">
+    <div class="content">
+      <h2 class="article-title">To be continued</h2>
+      <p class="article-text">
+        Тут будет твой текст вместо Lorem Ipsum.
+      </p>
+    </div>
+  </article>
+
+  <div class="copy">© WebDesign Master</div>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.documentElement.style.setProperty('--scrollTop', `${window.scrollY}px`)
+    })
+  </script>
+</body>
+</html>
